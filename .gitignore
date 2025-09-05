@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# Downloads and output directories
+downloads/
+output/
+temp/
+temp_*/
+
+# FFmpeg related
+ffmpeg/
+ffmpeg.zip
+ffmpeg*.zip
+ffmpeg*.tar.gz
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Internal documentation (for AI assistant reference only)
+_ai_docs/
+
+# Development tools (for maintainer use only)
+dev_tools/
+
+# Application specific
+settings.json
+*.log
+*.log.*
+
+# Test artifacts
+test_*.mp4
+test_*.m4a
+test_*.webm
+*.part
+
+# Backup files
+*.bak
+*.backup
+*~
