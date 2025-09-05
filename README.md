@@ -3,7 +3,7 @@
 A modern, feature-rich GUI application for downloading YouTube videos and playlists with an intuitive interface built with Python and Tkinter.
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Rishabh-Baloni/youtube-downloader-pro/blob/main/LICENSE)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
 
 ## ✨ Features
@@ -34,7 +34,7 @@ A modern, feature-rich GUI application for downloading YouTube videos and playli
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/youtube-downloader-pro.git
+git clone https://github.com/Rishabh-Baloni/youtube-downloader-pro.git
 cd youtube-downloader-pro
 
 # Run the app (installs everything automatically on first run)
@@ -145,7 +145,7 @@ Contributions are welcome! Feel free to:
 
 ## 📜 License
 
-MIT License - see LICENSE file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Rishabh-Baloni/youtube-downloader-pro/blob/main/LICENSE) file for details.
 
 ## ⚠️ Disclaimer
 
