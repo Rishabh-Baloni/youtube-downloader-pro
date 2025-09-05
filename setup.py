@@ -49,11 +49,14 @@ def create_venv():
 
 def install_dependencies():
     """Install Python dependencies."""
-    pip_path = "venv\\Scripts\\pip.exe" if platform.system() == "Windows" else "venv/bin/pip"
+    if platform.system() == "Windows":
+        python_path = "venv\\Scripts\\python.exe"
+    else:
+        python_path = "venv/bin/python"
     
     commands = [
-        ([pip_path, "install", "--upgrade", "pip"], "Upgrading pip"),
-        ([pip_path, "install", "-r", "requirements.txt"], "Installing Python dependencies")
+        ([python_path, "-m", "pip", "install", "--upgrade", "pip"], "Upgrading pip"),
+        ([python_path, "-m", "pip", "install", "--only-binary=:all:", "-r", "requirements.txt"], "Installing Python dependencies")
     ]
     
     for command, description in commands:
